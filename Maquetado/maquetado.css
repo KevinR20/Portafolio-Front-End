@@ -1,0 +1,127 @@
+
+#logoArgp {
+    width: auto;
+    height: 100px;
+    border: 1px;
+    float: left;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 1px;
+    z-index: 1;
+    }
+#fondo {
+    position: float;
+    width: 10000px;
+    height: 700px;
+   margin-top: 1px;
+   margin-left: 1px;
+   margin-right: 1px;;
+   
+}
+#container {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#foto {
+    height: 250px;
+    position: relative;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-top: -7%;
+    
+}
+.social-bar {
+  float: right;
+  position: absolute;
+  margin-top:2%;
+  margin-left: 85%;
+ }
+
+#facebook{
+    background-color: white;
+    border-radius: 10px;
+}
+#twitter{
+    background-color: white; 
+    border-radius: 10px;   
+}
+#linkedin{
+    background-color: white;
+    border-radius: 10px;    
+}
+#instagram{
+    background-color: white;
+    border-radius: 10px;    
+}
+
+.secciones{
+    text-align: left;
+    display: flex;
+    border-bottom-color:gray ;
+    border-bottom-style: none;
+    border-width: 5px 10px;
+    border-style: inset;
+}
+
+.Container-barras{
+    padding: 60px;
+    display:flex; 
+}
+.circle-wrap {
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid gray;
+  }
+  
+  .circle-wrap .circle .mask,
+  .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+  
+  .circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: white;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: black;
+    position: absolute;
+    font-weight: 700;
+    font-size: 2em;
+  }
+
+  .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #22ed7d;
+  }
+  
+  .mask.full,
+  .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(135deg);
+  }
+  
+  @keyframes fill{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(135deg);
+    }
+  }
+  
